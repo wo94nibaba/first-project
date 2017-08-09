@@ -1,0 +1,10 @@
+html{font-size: 62.5%;  }
+body{background:#5fc0cd;}
+.main{width:100%;margin:0 auto;overflow:hidden;}
+.header{padding:2rem 0 2rem 2rem;}
+.logo{width:100%}
+.logo img{margin:0 auto;display:block;padding:8% 0;}
+.text{margin:0 auto;padding:2rem;}
+.text p{font-size: 2rem;display:block;padding:0 10%;}
+.logoleft{float:left;padding:5% 15%;}
+.logoright{float:right;padding:5% 15%;}
