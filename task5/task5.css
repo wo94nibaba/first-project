@@ -29,7 +29,9 @@ a {
     width:100%;
     position: absolute;
     top:10rem;
-    margin-bottom:10rem;
+    bottom:10rem;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .up {
     display:flex;
