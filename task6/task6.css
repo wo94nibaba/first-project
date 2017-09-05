@@ -45,13 +45,17 @@ header {
     flex:0.7;
     display: flex;
     justify-content:flex-end;
+    align-items: center;
 }
 .form-control {
     height:6rem;
 }
 .location {
-    margin:2rem 1.5rem;
+    width:40px;
+    height:40px;
+    /*margin:2rem 1.5rem;*/
     background: #5fc0cd;
+    margin-right: 3rem;
 }
 .container-fluid1 {
     position:fixed;
