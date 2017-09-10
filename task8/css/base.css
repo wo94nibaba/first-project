@@ -1,0 +1,133 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+header {
+    width: 100%;
+    margin: 0 auto;
+    color: #29b078;
+    background: #ffffff;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+.chat {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0;
+    padding-right: 10%;
+}
+.chat li {
+    padding:0 2rem;
+}
+.chat li:first-child {
+    display: inline-block;
+    width: 26px;
+    height: 24px;
+    background: url("../img/sprites.png") no-repeat;
+    background-position: -90px -92px;
+}
+.chat li:nth-child(2) {
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+    background: url("../img/sprites.png") no-repeat;
+    background-position: -153px -10px;
+}
+.chat li:nth-child(3) {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url("../img/sprites.png") no-repeat;
+    background-position: -153px -54px;
+}
+.header-top span {
+    width: 50%;
+    padding-left: 10%;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background: #29b078;
+}
+.logo {
+    padding-left: 10%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10%;
+}
+.menu li {
+    padding: 0 2rem;
+    font-size: 2rem;
+}
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer {
+    width: 100%;
+    height: 20rem;
+
+}
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 17rem;
+    color: #ffffff;
+    background: #29b078;
+}
+.footer-top ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-top li {
+    display: inline-block;
+}
+.footer-top a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-top p {
+    font-size: 1.8rem;
+}
+.footer-top-left li {
+    padding-top: 6rem;
+}
+.footer-top-middle li {
+    padding-right: 1rem;
+    padding-top: 1.4rem;
+}
+.footer-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    border-top: 0.15rem solid #32c086;
+    color: #ffffff;
+    background: #29b078;
+}
+.footer-bottom p {
+    margin: 0;
+}
