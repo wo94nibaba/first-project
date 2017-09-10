@@ -36,7 +36,7 @@ header i {
 .container-fluid{
     position: absolute;
     top: 8rem;
-    /*bottom: 10rem;*/
+    bottom: 10rem;
     width: 100%;
     padding: 0;
     margin: 0;

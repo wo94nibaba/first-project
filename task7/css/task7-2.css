@@ -10,7 +10,7 @@ header {
     position: fixed;
     top:0;
     width:100%;
-    height:10rem;
+    height:8rem;
     background: #29bde0;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@ h1 {
 }
 .top {
     position: fixed;
-    top:10rem;
+    top:8rem;
     width:100%;
     height:8rem;
     background: #b9e9f5;
@@ -58,8 +58,8 @@ audio {
 .top2{
     width:100%;
     position: fixed;
-    top:18rem;
-    height:12rem;
+    top:16rem;
+    height:10rem;
     background: #29bde0;
     z-index: 1;
 }
@@ -78,7 +78,7 @@ audio {
 }
 .container-fluid {
     position: absolute;
-    top:30rem;
+    top:26rem;
     bottom:10rem;
     width:100%;
     background: #29bde0;
