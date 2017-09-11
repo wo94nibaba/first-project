@@ -20,13 +20,13 @@ header {
 }
 .chat {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0;
     padding-right: 10%;
 }
 .chat li {
-    padding:0 2rem;
+    padding-left: 2rem;
 }
 .chat li:first-child {
     display: inline-block;
@@ -68,11 +68,24 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0;
+    padding: 0;
     padding-right: 10%;
+    list-style: none;
 }
 .menu li {
-    padding: 0 2rem;
+    width: 5rem;
+    height: 10rem;
+    line-height: 10rem;
+    margin: 0 1rem;
     font-size: 2rem;
+    text-align: center;
+}
+.menu li:hover {
+    border-bottom: 3px solid #ffffff;
+}
+.menu li:active {
+    border-bottom: 3px solid #ffffff;
 }
 .menu a {
     text-decoration: none;
