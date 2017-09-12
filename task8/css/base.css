@@ -13,6 +13,7 @@ header {
     background: #ffffff;
 }
 .header-top {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +27,8 @@ header {
     padding-right: 10%;
 }
 .chat li {
-    padding-left: 2rem;
+    margin-left: 2rem;
+    padding: 0 1rem;
 }
 .chat li:first-child {
     display: inline-block;
