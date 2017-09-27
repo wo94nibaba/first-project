@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>task8-3</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="../css/task8-3.css" rel="stylesheet" type="text/css" />
     <link href="../css/base.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 <header>
@@ -24,34 +26,28 @@
             </li>
         </ul>
     </div>
-    <div class="header-bottom">
-        <div class="logo">
-            <a href="">
-                <img src="../img/logo.png">
-            </a>
-        </div>
-        <ul class="menu">
-            <li>
-                <a href="task8-1.html">
-                    首页
-                </a>
-            </li>
-            <li>
-                <a href="task8-2.html">
-                    职业
-                </a>
-            </li>
-            <li>
-                <a href="task8-3.html">
-                    推荐
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    关于
-                </a>
-            </li>
-        </ul>
+    <div class="header-nav-wrap nav" style="background: #29b078">
+        <nav class="navbar navbar-default container-fluid" style="padding: 0; margin: 0; border: none; background: #29b078">
+            <div class="row-first">
+                <div class="navbar-header">
+                    <a class="title-word" href="">
+                        <img src="../img/logo.png" style="padding-top: 1rem; padding-left: 5rem;">
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#example-navbar-collapse" style= "border: none; margin: 0; margin-top: 0.5rem; margin-right: 12%;">
+                        <img src="../img/7-2menu.png">
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse" style="padding: 0;">
+                    <ul class="nav navbar-nav text-center navbar-right" style="margin: 0 5rem;">
+                        <li><a href="task8-1.html">首页</a></li>
+                        <li><a href="task8-2.html">职业</a></li>
+                        <li><a href="task8-3.html">推荐</a></li>
+                        <li><a href="">关于</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
 </header>
 <div class="wrap">
@@ -86,7 +82,10 @@
                         <div>
 
                         </div>
-                        阿里巴巴
+                        <span>
+                            阿里巴巴
+                        </span>
+
                     </a>
                 </li>
                 <li>
@@ -94,7 +93,10 @@
                         <div>
 
                         </div>
-                        阿里巴巴
+                        <span>
+                            阿里巴巴
+                        </span>
+
                     </a>
                 </li>
                 <li>
@@ -102,7 +104,9 @@
                         <div>
 
                         </div>
-                        阿里巴巴
+                        <span>
+                            阿里巴巴
+                        </span>
                     </a>
                 </li>
                 <li>
@@ -110,7 +114,9 @@
                         <div>
 
                         </div>
-                        阿里巴巴
+                        <span>
+                            阿里巴巴
+                        </span>
                     </a>
                 </li>
                 <li>
@@ -118,7 +124,9 @@
                         <div>
 
                         </div>
-                        阿里巴巴
+                        <span>
+                            阿里巴巴
+                        </span>
                     </a>
                 </li>
                 <li>
@@ -126,7 +134,9 @@
                         <div>
 
                         </div>
-                        阿里巴巴
+                        <span>
+                            阿里巴巴
+                        </span>
                     </a>
                 </li>
                 <li>
@@ -134,7 +144,9 @@
                         <div>
 
                         </div>
-                        阿里巴巴
+                        <span>
+                            阿里巴巴
+                        </span>
                     </a>
                 </li>
                 <li>
@@ -142,7 +154,9 @@
                         <div>
 
                         </div>
-                        阿里巴巴
+                        <span>
+                            阿里巴巴
+                        </span>
                     </a>
                 </li>
             </ul>
@@ -229,5 +243,7 @@
         </p>
     </div>
 </footer>
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

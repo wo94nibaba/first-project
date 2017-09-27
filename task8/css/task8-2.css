@@ -36,7 +36,7 @@ body {
     color: #29b078;
 }
 .direction {
-    width: 80%;
+    width: 100%;
     height: 5rem;
     line-height: 5rem;
 }
@@ -61,16 +61,19 @@ body {
     border-bottom: 2px solid #eeeded;
     padding: 2rem 0;
 }
-.row {
+.row1 {
     width: 100%;
-    margin-top: 4rem;
+    margin: 4rem 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+
 
 }
 .box {
     position: relative;
     width:30%;
+    overflow: hidden;
     /*height: 39.2rem;*/
     border: 1px solid #eeeded;
     background: #ffffff;
@@ -82,6 +85,7 @@ body {
 }
 .box-top {
     height: 15rem;
+    overflow: hidden;
     border-bottom: 1px solid #eeeded;
 }
 .box-top img {
@@ -89,7 +93,7 @@ body {
 }
 .box-top h3 {
     margin-left: 15rem;
-    padding-top: 2rem;
+    padding-top: 0;
 }
 .box-top p {
     margin-left: 15rem;
@@ -101,6 +105,7 @@ body {
     padding: 0;
     height: 3rem;
     line-height: 3rem;
+    overflow: hidden;
     border-bottom: 1px solid #eeeded;
 }
 .line1 li:first-child {
@@ -122,6 +127,7 @@ body {
     padding: 0;
     height: 3rem;
     line-height: 3rem;
+    overflow: hidden;
     border-bottom: 1px solid #eeeded;
 }
 .line2 li:first-child {
@@ -233,4 +239,13 @@ body {
 }
 .yw {
     margin-bottom: 20%;
+}
+@media screen and (max-width: 768px) {
+    .box {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .direction {
+        height: 15rem;
+    }
 }

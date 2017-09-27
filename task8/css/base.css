@@ -24,10 +24,10 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding-right: 10%;
+    padding-right: 5rem;
 }
 .chat li {
-    margin-left: 2rem;
+    margin: 0 2rem;
     padding: 0 1rem;
 }
 .chat li:first-child {
@@ -53,45 +53,10 @@ header {
 }
 .header-top span {
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5rem;
 }
-.header-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 10rem;
-    background: #29b078;
-}
-.logo {
-    padding-left: 10%;
-}
-.menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    padding-right: 10%;
-    list-style: none;
-}
-.menu li {
-    width: 5rem;
-    height: 10rem;
-    line-height: 10rem;
-    margin: 0 1rem;
-    font-size: 2rem;
-    text-align: center;
-}
-.menu li:hover {
-    border-bottom: 3px solid #ffffff;
-}
-.menu li:active {
-    border-bottom: 3px solid #ffffff;
-}
-.menu a {
-    text-decoration: none;
-    color: #ffffff;
+.nav li {
+    padding: 1rem 0;
 }
 .footer {
     width: 100%;
@@ -100,6 +65,7 @@ header {
 }
 .footer-top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -145,4 +111,45 @@ header {
 }
 .footer-bottom p {
     margin: 0;
+}
+.nav li a {
+
+    font-size: 2rem;
+
+}
+.nav li:hover {
+    box-shadow: 0 -2px #fff inset ;
+}
+@media screen and (max-width: 768px) {
+    .header-top span {
+        display: none;
+    }
+    .header-top {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+    }
+    .chat {
+        padding: 0;
+        margin-right: 10%;
+    }
+    .footer-top {
+        height: 60rem;
+    }
+    .footer-top-left {
+        width: 100%;
+        text-align: center;
+        margin: 3rem auto;
+     }
+    .footer-top-middle {
+        width: 100%;
+        text-align: center;
+        margin: 3rem auto;
+    }
+    .footer-top-right {
+        width: 100%;
+        text-align: center;
+        margin: 3rem 9rem;
+    }
 }
