@@ -133,8 +133,19 @@ body {
         width: 100%;
         margin: 0;
         padding: 0;
+
+    }
+    .detailed-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .detailed-top p {
+        margin: 1rem 0;
     }
     .detailed-main p {
         margin: 2rem 0;
+    }
+    .footer-top-right {
+        padding: 0 33%;
     }
 }

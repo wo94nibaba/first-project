@@ -256,6 +256,9 @@ body {
         padding-left: 0;
         margin: 3rem 0;
     }
+    .row p {
+        width: 15rem;
+    }
     .zs-son div {
         width: 100%;
     }
@@ -268,6 +271,6 @@ body {
 
     .link li {
         width: 40%;
-        margin: 2% 45%;
+        margin: 2% 35%;
     }
 }
