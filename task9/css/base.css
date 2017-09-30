@@ -152,4 +152,8 @@ header {
         text-align: center;
         margin: 3rem 9rem;
     }
+    .footer-top-right img {
+        width: 108px;
+        margin: 0 auto;
+    }
 }
