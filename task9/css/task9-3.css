@@ -139,6 +139,11 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .detailed-top img {
+        width: 200px;
+        height: 150px;
+        margin: 0 auto;
+    }
     .detailed-top p {
         margin: 1rem 0;
     }

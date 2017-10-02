@@ -72,7 +72,7 @@ body {
 }
 .box {
     position: relative;
-    width:30%;
+    width:32%;
     overflow: hidden;
     /*height: 39.2rem;*/
     border: 1px solid #eeeded;
@@ -84,39 +84,46 @@ body {
     transition:2s;
 }
 .box-top {
-    height: 15rem;
+    height: 18rem;
     overflow: hidden;
     border-bottom: 1px solid #eeeded;
 }
 .box-top img {
     float: left;
+    width: 120px;
+    height: 140px;
+    margin: 2rem 0.5rem;
 }
 .box-top h3 {
-    margin-left: 15rem;
+    text-align: center;
+    margin-left: 12.5rem;
     padding-top: 0;
+    font-size: 2rem;
 }
 .box-top p {
-    margin-left: 15rem;
-    padding: 1rem 0;
+    margin-left: 12.5rem;
+    /*padding: 1rem 0;*/
+    font-size: 1.2rem;
 }
 .line1 {
     list-style: none;
     margin: 0;
     padding: 0;
-    height: 3rem;
-    line-height: 3rem;
+    height: 4rem;
+    line-height: 4rem;
     overflow: hidden;
+    font-size: 1.2rem;
     border-bottom: 1px solid #eeeded;
 }
 .line1 li:first-child {
     float: left;
-    width: 50%;
+    width: 40%;
     border-right: 1px solid #eeeded;
 }
 .line1 span {
     vertical-align: middle;
-    margin-right: 2rem;
-    padding-left: 1rem;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
 }
 .line1 img {
     vertical-align: middle;
@@ -125,50 +132,54 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    height: 3rem;
-    line-height: 3rem;
+    height: 4rem;
+    line-height: 4rem;
     overflow: hidden;
+    font-size: 1.2rem;
     border-bottom: 1px solid #eeeded;
 }
 .line2 li:first-child {
     float: left;
-    width: 50%;
+    width: 40%;
     border-right: 1px solid #eeeded;
 }
 .line2 span {
     vertical-align: middle;
-    margin-right: 2rem;
-    padding-left: 1rem;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
 }
 .line2 strong {
     color: #e63b0e;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .line3 {
-    height: 10rem;
+    height: 12rem;
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 1.2rem;
     border-bottom: 1px solid #eeeded;
     overflow: hidden;
 }
 .line3-1 {
     float: left;
-    width: 40%;
-    height: 10rem;
-    line-height: 8rem;
+    width: 30%;
+    height: 12rem;
+    line-height: 12rem;
     border-right: 1px solid #eeeded;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 .line3-1 span {
+    vertical-align: middle;
     color: #999999;
     font-size: 1.2rem;
 }
 
 .line3-2 {
-    margin-left: 40%;
+
+    margin-left: 30%;
     padding: 0;
 }
 .line3-son {
@@ -176,11 +187,16 @@ body {
     margin: 0;
     padding: 0;
 }
+.line3-son p {
+    margin: 0;
+}
 .line3-son li {
+    line-height: 4rem;
     padding-left: 2rem;
     border-bottom: 1px solid #eeeded;
 }
 .line3-son span {
+    vertical-align: middle;
     float:right;
     padding-right: 2rem;
 }
@@ -248,4 +264,13 @@ body {
     .direction {
         height: 15rem;
     }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .box {
+        width: 45%;
+        margin: 2rem 0;
+    }
+    /*.direction {
+        height: 15rem;
+    }*/
 }
