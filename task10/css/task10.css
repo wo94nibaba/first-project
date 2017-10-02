@@ -1,0 +1,357 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header-top {
+    vertical-align: middle;
+    /*height: 4rem;*/
+    line-height: 4rem;
+    background: #1d7ad9;
+}
+.header-top span {
+    margin-left: 10%;
+    color: #ffffff;
+}
+.header-top ul {
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 10%;
+    margin-bottom: 0;
+    padding: 0;
+}
+.header-top ul li {
+    display: inline-block;
+    width: 4rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.register {
+    margin-right: 1.5rem;
+}
+.login:hover {
+    color: #333;
+    text-decoration: none;
+    background: #ffffff;
+}
+.login a:hover {
+    text-decoration: none;
+}
+.register a:hover {
+    text-decoration: none;
+}
+.register:hover {
+    text-decoration: none;
+    color: #333;
+    background: #ffffff;
+}
+.login a {
+    text-decoration: none;
+    color: #fff;
+}
+.register a {
+    text-decoration: none;
+    color: #fff;
+}
+.header-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8rem;
+    background: #f3f3f3;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    margin-right: 10%;
+    padding: 0;
+}
+.nav div {
+    width: 8rem;
+    line-height: 4rem;
+    margin: 0 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #333;
+    border-radius: 5px;
+    background: #ffffff;
+}
+.nav div a {
+    color: #333;
+    text-decoration: none;
+}
+.nav div:hover {
+    background: #1d7ad9;
+}
+.nav div a:hover {
+    text-decoration: none;
+}
+.nav div:visited {
+    background: #1d7ad9;
+}
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+.menu {
+    width: 100%;
+    height: 15rem;
+    background: #fff;
+}
+.menu-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 4rem;
+}
+.box1 {
+    width: 6rem;
+    height: 0.4rem;
+    border-radius: 2px;
+    background: #e63b0e;
+}
+.box2 {
+    width: 2rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 100%;
+    color: #ffffff;
+    font-size: 1rem;
+    background: #e63b0e;
+}
+.box3 {
+    width: 6rem;
+    height: 0.4rem;
+    border-radius: 2px;
+    background: #e63b0e;
+}
+.box1,.box2,.box3 {
+    display: inline-block;
+}
+.menu-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu-middle p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 4rem;
+}
+.menu-bottom {
+    font-size: 2.4rem;
+    padding-left: 1rem;
+    border-left: 3px solid  #1d7ad9;
+}
+.shap {
+    width: 100%;
+
+}
+.shap-top {
+    width: 100%;
+    line-height: 5rem;
+    background: #f3f3f3;
+}
+.shap-top i {
+    display: inline-block;
+    width: 19px;
+    height: 15px;
+    vertical-align: middle;
+    background: url("../img/css_sprites.png") no-repeat;
+    background-position: -10px -50px;
+}
+.shap-top span {
+    vertical-align: middle;
+    margin-left: 1rem;
+    color: #1d7ad9;
+}
+label i {
+    display: inline-block;
+    padding: 6px;
+    border: 1px solid #999999;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+label span {
+    vertical-align: middle;
+}
+input[type='radio'] {
+    display: none;
+}
+input[type='radio']:checked+i {
+    padding: 2px;
+    border: 5px solid #1d7ad9;
+}
+input[type='text'] {
+    width: 70px;
+    height: 2rem;
+}
+#select1,#select2,#select3 {
+    margin: 0;
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 1px #000;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("../img/select.png") no-repeat scroll right center transparent;
+    background-size: 20%;
+
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 24px;
+}
+
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none;
+}
+.select-one,.select-two,.select-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.size {
+    width: 100%;
+
+}
+.size-top {
+    width: 100%;
+    line-height: 5rem;
+    background: #f3f3f3;
+}
+.size-top i {
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    vertical-align: middle;
+    background: url("../img/css_sprites.png") no-repeat;
+    background-position: -10px -10px;
+}
+.size-top span {
+    vertical-align: middle;
+    margin-left: 1rem;
+    color: #1d7ad9;
+}
+
+.material {
+    width: 100%;
+
+}
+.material-top {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: 5rem;
+    background: #f3f3f3;
+}
+.material-top i {
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    vertical-align: middle;
+    background: url("../img/css_sprites.png") no-repeat;
+    background-position: -52px -10px;
+}
+.material-top span {
+    vertical-align: middle;
+    margin-left: 1rem;
+    color: #1d7ad9;
+}
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.next a {
+    width: 10rem;
+    line-height: 2.5rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    background: #e15053;
+}
+footer {
+
+    width: 100%;
+
+    margin: 0 auto;
+    background: #f9f9f9;
+}
+.footer-top {
+    width: 80%;
+    padding-top: 5rem;
+    height: 15rem;
+    background: #f9f9f9;
+}
+.footer-left {
+    color: #999;
+}
+.footer-middle {
+
+}
+.footer-middle ul {
+    padding: 0;
+    list-style: none;
+}
+.footer-middle li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+.footer-right img {
+    float: right;
+}
+.footer-right p {
+    margin-right: 10rem;
+
+    line-height: 3rem;
+}
+.footer-bottom {
+    text-align: center;
+    line-height: 4rem;
+    color: #ffffff;
+    background: #1d7ad9;
+}
+.col-sm-2,.col-sm-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
+.select-two {
+    height: 16rem;
+}
+label {
+    color: #666;
+}
