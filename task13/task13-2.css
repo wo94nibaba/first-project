@@ -22,16 +22,18 @@ header {
     height: 60px;
     margin-left: 2rem;
     background: url("img/sprites7-2.png") no-repeat;
-    background-position: 0 0; }
+    background-position: 0 0;
+    transform: scale(0.7, 0.7); }
   header .closed {
     display: inline-block;
     width: 60px;
     height: 60px;
     margin-right: 2rem;
     background: url("img/sprites7-2.png") no-repeat;
-    background-position: -60px 0; }
+    background-position: -60px 0;
+    transform: scale(0.7, 0.7); }
   header h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #ffffff; }
 
@@ -43,22 +45,24 @@ header {
   top: 8rem;
   z-index: 1;
   width: 100%;
-  height: 8rem;
+  height: 6rem;
   background: #b9e9f5; }
   .top span {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-left: 4rem; }
   .top audio {
     background: url("img/play.png"); }
   .top #a {
-    width: 8rem; }
+    width: 6rem; }
+    .top #a img {
+      transform: scale(0.8, 0.8); }
 
 .top2 {
   position: fixed;
-  top: 16rem;
+  top: 14rem;
   z-index: 1;
   width: 100%;
-  height: 10rem;
+  height: 8rem;
   background: #29bde0; }
   .top2 .triangle-down {
     position: relative;
@@ -70,18 +74,18 @@ header {
     border-top: 2rem solid #b9e9f5; }
   .top2 p {
     margin: 1rem 5.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #ffffff; }
 
 .wrap {
   position: absolute;
-  top: 26rem;
-  bottom: 10rem;
-  width: 100%;
+  top: 22rem;
   margin: 0;
+  margin-bottom: 8rem;
+  width: 100%;
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
+  /*overflow-x: hidden;
+  overflow-y: auto;*/
   background: #29bde0; }
   .wrap .line {
     display: flex;
@@ -94,27 +98,26 @@ header {
         text-align: center;
         border: 0.5rem solid #ffffff; }
       .wrap .line .main .box div:first-child {
-        padding: 25% 0;
-        line-height: 50%;
-        font-size: 3rem;
+        padding: 40% 0;
+        line-height: 0;
+        font-size: 2.3rem;
         background: #f5c97b; }
       .wrap .line .main .box div:last-child {
-        padding: 15% 0;
-        line-height: 30%;
-        font-size: 2rem;
+        padding: 10% 0;
+        line-height: 0;
+        font-size: 1.5rem;
         background: #83b09a; }
       .wrap .line .main .sub {
         visibility: hidden;
-        /*opacity: 0;*/
         width: 100%;
         list-style: none;
         padding: 0;
-        margin: 2rem 0; }
+        margin: 1rem 0; }
         .wrap .line .main .sub div {
           display: inline-block;
-          width: 24%;
-          padding: 12% 0;
-          margin: 0 0.5%;
+          width: 20%;
+          padding: 10% 0;
+          margin: 0 2.5%;
           background: url("img/7-2sub.png") no-repeat;
           background-size: 200%;
           background-color: white; }
@@ -137,7 +140,7 @@ footer {
   justify-content: center;
   z-index: 1;
   width: 100%;
-  height: 10rem;
+  height: 8rem;
   background: #29bde0; }
   footer a {
     display: flex;
@@ -147,8 +150,9 @@ footer {
     width: 100%; }
     footer a button {
       width: 80%;
-      height: 8rem;
-      list-style: none;
+      height: 6rem;
+      border: none;
+      /*list-style: none;*/
       background: #fbb435; }
     footer a .end {
       font-size: 3rem;

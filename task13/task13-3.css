@@ -15,11 +15,12 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 8rem;
+  height: 6rem;
   border-bottom: 0.1rem solid #ffffff;
   background: #29bde0; }
   header h1 {
-    font-size: 4rem;
+    color: #ffffff;
+    font-size: 2.1rem;
     font-weight: 500; }
   header .home i {
     display: inline-block;
@@ -27,40 +28,45 @@ header {
     height: 40px;
     margin-left: 3rem;
     background: url("img/sprites7-3.png");
-    background-position: -10px -10px; }
+    background-position: -10px -10px;
+    transform: scale(0.8, 0.8); }
   header .info i {
     display: inline-block;
     width: 40px;
     height: 40px;
     margin-right: 3rem;
     background: url("img/sprites7-3.png");
-    background-position: -70px -10px; }
+    background-position: -70px -10px;
+    transform: scale(0.8, 0.8); }
 
 .wrap {
   position: absolute;
-  top: 8rem;
-  bottom: 10rem;
+  top: 6rem;
+  margin: 0;
+  margin-bottom: 10rem;
   width: 100%;
   padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-  overflow-y: auto; }
+  /* overflow-x: hidden;
+   overflow-y: auto;*/ }
   .wrap .top {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
     background: #29bde0; }
+    .wrap .top img {
+      transform: scale(0.7, 0.7); }
     .wrap .top .jl1 {
       width: 70%;
-      padding: 2rem 0;
-      font-size: 2.7rem;
+      margin: 0;
+      padding: 0 0 2rem 0;
+      font-size: 2rem;
       color: #ffc865; }
     .wrap .top .jl2 {
       width: 70%;
-      font-size: 2rem;
-      color: #ffffff;
-      padding: 1rem 0; }
+      margin: 0;
+      padding: 0 0 2rem 0;
+      font-size: 1.6rem;
+      color: #ffffff; }
   .wrap .main {
     width: 100%;
     /*padding: 0 5rem;*/ }
@@ -73,7 +79,7 @@ header {
         padding-top: 1rem; }
         .wrap .main .itm .box p {
           padding: 1rem 0;
-          font-size: 2rem;
+          font-size: 1.5rem;
           color: #a6a6a6; }
       .wrap .main .itm .box span:first-child {
         font-size: 2rem; }
@@ -90,16 +96,17 @@ footer {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  height: 10rem;
+  height: 8rem;
   background: rgba(41, 189, 224, 0.4); }
   footer a {
     width: 40%;
-    height: 7rem; }
+    height: 5rem; }
     footer a button {
       width: 100%;
       height: 100%;
       border-radius: 1rem;
-      font-size: 2.5rem; }
+      font-size: 2.5rem;
+      border: none; }
     footer a .left-button {
       color: #ffffff;
       background: #f66f6f; }
