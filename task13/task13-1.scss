@@ -19,11 +19,11 @@ body {
 }
 .latestplayed {
   width: 87.5%;
-  height: 8rem;
-  margin: 2rem auto;
-  font-size: 2.4rem;
+  height: 6rem;
+  margin: 1.5rem auto;
+  font-size: 2rem;
   text-align: center;
-  line-height: 8rem;
+  line-height: 6rem;
   color: #9a9a9a;
   background: #ffffff;
   img {
@@ -31,7 +31,7 @@ body {
     float: right;
     width: 20px;
     height: 30px;
-    margin: 2.5rem 1rem 2.5rem 0;
+    margin: 1.5rem 1rem 1.5rem 0;
   }
 }
 .main {
@@ -42,9 +42,10 @@ body {
   h2 {
     overflow: hidden;
     width:100%;
-    margin-bottom: 0;
+    margin: 0;
     padding: 1rem 0;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
     text-align: center;
     letter-spacing: 5px;
     color: #fbb435;
@@ -63,11 +64,11 @@ body {
       width:80%;
       margin:0;
       @mixin box {
-        width:100%;
-        padding:2rem 0;
-        margin:2rem auto;
+        width: 100%;
+        padding: 1.5rem 0;
+        margin: 1.5rem auto;
         text-align: center;
-        font-size: 2.1rem;
+        font-size: 1.8rem;
         letter-spacing: 2px;
         background: #29bde0;
       }
@@ -82,11 +83,11 @@ body {
         text-align: center;
       }
       .bottom {
-        display:flex;
-        flex-wrap:nowrap;
-        justify-content:center;
-        padding:2em 0;
-        @mixin circle($background-color,$display:flex,$width:15px,$height:15px,$border-radius:50px) {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding: 1rem 0;
+        @mixin circle($background-color,$display:flex,$width:10px,$height:10px,$border-radius:50px) {
           background-color: $background-color;
           display: $display;
           width: $width;
@@ -109,7 +110,7 @@ body {
       width:10%;
       img {
         width: 20px;
-        margin: 16.1rem 0;
+        margin: 12.6rem 0;
       }
     }
   }

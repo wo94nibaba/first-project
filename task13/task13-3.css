@@ -20,24 +20,24 @@ header {
   background: #29bde0; }
   header h1 {
     color: #ffffff;
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 500; }
   header .home i {
     display: inline-block;
     width: 40px;
     height: 40px;
-    margin-left: 3rem;
+    margin-left: 1rem;
     background: url("img/sprites7-3.png");
     background-position: -10px -10px;
-    transform: scale(0.8, 0.8); }
+    transform: scale(0.7, 0.7); }
   header .info i {
     display: inline-block;
     width: 40px;
     height: 40px;
-    margin-right: 3rem;
+    margin-right: 1rem;
     background: url("img/sprites7-3.png");
     background-position: -70px -10px;
-    transform: scale(0.8, 0.8); }
+    transform: scale(0.7, 0.7); }
 
 .wrap {
   position: absolute;
@@ -45,27 +45,28 @@ header {
   margin: 0;
   margin-bottom: 10rem;
   width: 100%;
-  padding: 0;
-  /* overflow-x: hidden;
-   overflow-y: auto;*/ }
+  padding: 0; }
   .wrap .top {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 1.5rem;
     background: #29bde0; }
     .wrap .top img {
-      transform: scale(0.7, 0.7); }
+      width: 220px;
+      height: 110px;
+      /*transform: scale(0.7,0.7);*/ }
     .wrap .top .jl1 {
-      width: 70%;
+      width: 80%;
       margin: 0;
-      padding: 0 0 2rem 0;
-      font-size: 2rem;
+      padding: 1rem 0 1.5rem 0;
+      font-size: 1.7rem;
       color: #ffc865; }
     .wrap .top .jl2 {
-      width: 70%;
+      width: 80%;
       margin: 0;
-      padding: 0 0 2rem 0;
-      font-size: 1.6rem;
+      padding: 0 0 1rem 0;
+      font-size: 1.5rem;
       color: #ffffff; }
   .wrap .main {
     width: 100%;
@@ -74,15 +75,16 @@ header {
       width: 100%;
       border-bottom: 0.1rem solid #a6a6a6; }
       .wrap .main .itm .box {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
         padding-top: 1rem; }
         .wrap .main .itm .box p {
-          padding: 1rem 0;
+          padding: 0;
+          margin: 1rem 0;
           font-size: 1.5rem;
           color: #a6a6a6; }
       .wrap .main .itm .box span:first-child {
-        font-size: 2rem; }
+        font-size: 1.8rem; }
       .wrap .main .itm .box span:nth-child(2) {
         position: relative;
         left: 65%;
@@ -96,16 +98,16 @@ footer {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  height: 8rem;
+  height: 6rem;
   background: rgba(41, 189, 224, 0.4); }
   footer a {
     width: 40%;
-    height: 5rem; }
+    height: 4rem; }
     footer a button {
       width: 100%;
       height: 100%;
       border-radius: 1rem;
-      font-size: 2.5rem;
+      font-size: 1.6rem;
       border: none; }
     footer a .left-button {
       color: #ffffff;

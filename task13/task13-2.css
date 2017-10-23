@@ -14,13 +14,12 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 8rem;
+  height: 6rem;
   background: #29bde0; }
   header .menu {
     display: inline-block;
     width: 60px;
     height: 60px;
-    margin-left: 2rem;
     background: url("img/sprites7-2.png") no-repeat;
     background-position: 0 0;
     transform: scale(0.7, 0.7); }
@@ -28,7 +27,6 @@ header {
     display: inline-block;
     width: 60px;
     height: 60px;
-    margin-right: 2rem;
     background: url("img/sprites7-2.png") no-repeat;
     background-position: -60px 0;
     transform: scale(0.7, 0.7); }
@@ -42,50 +40,48 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  top: 8rem;
+  top: 6rem;
   z-index: 1;
   width: 100%;
-  height: 6rem;
+  height: 4rem;
   background: #b9e9f5; }
   .top span {
-    font-size: 2rem;
-    margin-left: 4rem; }
+    font-size: 1.6rem;
+    margin-left: 2rem; }
   .top audio {
     background: url("img/play.png"); }
   .top #a {
     width: 6rem; }
     .top #a img {
-      transform: scale(0.8, 0.8); }
+      transform: scale(0.6, 0.6); }
 
 .top2 {
   position: fixed;
-  top: 14rem;
+  top: 10rem;
   z-index: 1;
   width: 100%;
-  height: 8rem;
+  height: 4rem;
   background: #29bde0; }
   .top2 .triangle-down {
     position: relative;
     left: 5rem;
     width: 0;
     height: 0;
-    border-left: 1rem solid transparent;
-    border-right: 1rem solid transparent;
-    border-top: 2rem solid #b9e9f5; }
+    border-left: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+    border-top: 1rem solid #b9e9f5; }
   .top2 p {
-    margin: 1rem 5.5rem;
-    font-size: 2rem;
+    margin: 0 5.5rem;
+    font-size: 1.5rem;
     color: #ffffff; }
 
 .wrap {
   position: absolute;
-  top: 22rem;
+  top: 14rem;
   margin: 0;
   margin-bottom: 8rem;
-  width: 100%;
-  padding: 0;
-  /*overflow-x: hidden;
-  overflow-y: auto;*/
+  padding: 1% 2%;
+  width: 96%;
   background: #29bde0; }
   .wrap .line {
     display: flex;
@@ -96,7 +92,7 @@ header {
       width: 25%; }
       .wrap .line .main .box {
         text-align: center;
-        border: 0.5rem solid #ffffff; }
+        border: .3rem solid #ffffff; }
       .wrap .line .main .box div:first-child {
         padding: 40% 0;
         line-height: 0;
@@ -150,12 +146,11 @@ footer {
     width: 100%; }
     footer a button {
       width: 80%;
-      height: 6rem;
+      height: 4rem;
       border: none;
-      /*list-style: none;*/
       background: #fbb435; }
     footer a .end {
-      font-size: 3rem;
+      font-size: 2rem;
       color: #ffffff; }
 
 /*# sourceMappingURL=task13-2.css.map */
