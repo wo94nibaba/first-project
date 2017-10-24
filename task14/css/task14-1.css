@@ -164,7 +164,8 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      margin: 2rem 3rem; }
+      margin: 2rem 0;
+      width: 100%; }
       @media screen and (max-width: 768px) {
         .main .zs .zs-son {
           margin: 2rem 0; } }
@@ -174,9 +175,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 18%;
-        margin: 3rem;
-        padding: 1rem;
+        width: 20%;
+        margin: 3rem 2%;
+        padding: .5%;
         background: #ffffff; }
         @media screen and (max-width: 768px) {
           .main .zs .zs-son div {

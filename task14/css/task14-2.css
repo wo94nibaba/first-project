@@ -39,6 +39,8 @@
           @media screen and (max-width: 768px) {
             .wrap .main .direction ul li {
               font-size: 1.2rem; } }
+          .wrap .main .direction ul li a {
+            color: #000000; }
         .wrap .main .direction ul .direction-1 {
           color: #999999; }
     .wrap .main .qd,
