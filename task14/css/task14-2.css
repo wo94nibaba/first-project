@@ -12,7 +12,11 @@
         list-style: none;
         padding: 0; }
         .wrap .main .dh ul li {
-          float: left; }
+          float: left;
+          font-size: 2rem; }
+          @media screen and (max-width: 768px) {
+            .wrap .main .dh ul li {
+              font-size: 2rem; } }
           .wrap .main .dh ul li a {
             text-decoration: none;
             color: #333; }
@@ -24,7 +28,7 @@
       line-height: 5rem; }
       @media screen and (max-width: 768px) {
         .wrap .main .direction {
-          height: 15rem; } }
+          height: 10rem; } }
       .wrap .main .direction ul {
         list-style: none;
         padding: 0; }
@@ -32,6 +36,9 @@
           float: left;
           margin-right: 2rem;
           font-size: 1.5rem; }
+          @media screen and (max-width: 768px) {
+            .wrap .main .direction ul li {
+              font-size: 1.2rem; } }
         .wrap .main .direction ul .direction-1 {
           color: #999999; }
     .wrap .main .qd,

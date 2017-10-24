@@ -36,6 +36,9 @@
     width: 85%;
     margin: 5rem auto;
     padding: 0; }
+    @media screen and (max-width: 768px) {
+      .main .intro {
+        margin: 2rem auto; } }
     .main .intro .intro-son {
       width: 20%;
       margin: 0;
@@ -71,19 +74,20 @@
         margin: 2rem auto;
         text-align: center; }
       .main .intro .intro-son p {
-        margin: 1rem 5rem; }
-        @media screen and (max-width: 768px) {
-          .main .intro .intro-son p {
-            text-align: center; } }
+        margin: 1rem 2rem;
+        text-align: center; }
     .main .intro .intro-son2 {
       padding: 6rem 3rem;
       border-left: 1px dashed #999999; }
       @media screen and (max-width: 768px) {
         .main .intro .intro-son2 {
           width: 100%;
-          margin: 2rem auto;
+          margin: 0 auto;
+          padding: 3rem;
           border-left: none;
           text-align: center; } }
+      .main .intro .intro-son2 p {
+        margin: 2rem 0; }
   .main .adv {
     display: flex;
     flex-wrap: wrap;
@@ -116,11 +120,6 @@
         padding-left: 0; }
         @media screen and (max-width: 768px) {
           .main .adv .row .row-son {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
             width: 100%;
             padding-left: 0;
             margin: 3rem 0; } }
@@ -165,25 +164,36 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      margin: 2rem 0; }
+      margin: 2rem 3rem; }
+      @media screen and (max-width: 768px) {
+        .main .zs .zs-son {
+          margin: 2rem 0; } }
       .main .zs .zs-son div {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 20%;
-        margin: 3rem 2rem;
+        width: 18%;
+        margin: 3rem;
+        padding: 1rem;
         background: #ffffff; }
         @media screen and (max-width: 768px) {
           .main .zs .zs-son div {
-            width: 100%; } }
+            width: 70%;
+            margin: 3rem 0; } }
+        .main .zs .zs-son div img {
+          margin: 2rem 0; }
         .main .zs .zs-son div h3 {
           font-size: 2rem;
-          margin: 3rem 0; }
-        @media screen and (max-width: 768px) {
-          .main .zs .zs-son div p {
-            margin: 0 8rem; } }
+          margin: 1rem 0; }
+        .main .zs .zs-son div p {
+          color: #b0b0b0;
+          font-size: 1.5rem; }
+          @media screen and (max-width: 768px) {
+            .main .zs .zs-son div p {
+              margin: 0 2rem;
+              font-size: 1.5rem; } }
     .main .zs .circle {
       display: flex;
       flex-wrap: wrap;
@@ -202,11 +212,12 @@
     .main .part h2 {
       text-align: center;
       margin: 0 auto;
-      margin-top: 8rem; }
+      margin-top: 8rem;
+      margin-bottom: 2rem; }
     .main .part .part-son {
       width: 100%; }
       .main .part .part-son a {
-        margin: 3rem .5%;
+        margin: 4rem .5%;
         width: 19%;
         float: left; }
         .main .part .part-son a:hover {
@@ -214,6 +225,7 @@
         @media screen and (max-width: 768px) {
           .main .part .part-son a {
             width: 100%;
+            margin: 1rem .5%;
             text-align: center; } }
         .main .part .part-son a img {
           width: 100%;
@@ -245,7 +257,8 @@
         margin: 0 3.1rem; }
         @media screen and (max-width: 768px) {
           .main .link ul li {
-            width: 40%;
-            margin: 2% 35%; } }
+            width: 20%;
+            margin: 2%;
+            text-align: center; } }
 
 /*# sourceMappingURL=task14-1.css.map */

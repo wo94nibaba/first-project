@@ -36,7 +36,7 @@ header {
     @media screen and (max-width: 768px) {
       header .chat {
         padding: 0;
-        margin-right: 1rem; } }
+        margin-right: 1.5rem; } }
     header .chat li {
       margin-left: 2rem;
       padding: 0; }
@@ -74,6 +74,9 @@ header {
       justify-content: space-between;
       align-items: center;
       height: 6rem; }
+      @media screen and (max-width: 768px) {
+        header .navbar .container .navbar-header {
+          height: 5rem; } }
       header .navbar .container .navbar-header .navbar-brand {
         display: flex;
         flex-wrap: wrap;
@@ -83,8 +86,10 @@ header {
         padding-left: 5rem; }
         @media screen and (max-width: 768px) {
           header .navbar .container .navbar-header .navbar-brand {
-            padding-left: 1rem; } }
+            padding-left: 1rem;
+            transform: scale(0.7, 0.7); } }
       header .navbar .container .navbar-header .navbar-toggle {
+        transform: scale(0.7, 0.7);
         padding-right: 1rem;
         outline: none;
         border: none;
@@ -103,12 +108,7 @@ header {
           overflow: visible;
           padding-right: 5rem; } }
       header .navbar .container .navbar-collapse .nav {
-        display: none;
-        /*position: relative;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        z-index: 4;*/ }
+        display: none; }
         @media screen and (min-width: 768px) {
           header .navbar .container .navbar-collapse .nav {
             margin: 0;
@@ -168,14 +168,14 @@ footer {
       footer .footer-top .footer-top-left {
         width: 100%;
         text-align: center;
-        margin: 3rem auto; } }
+        margin: 1rem auto; } }
     footer .footer-top .footer-top-left li {
       padding-top: 6rem; }
     @media screen and (max-width: 768px) {
       footer .footer-top .footer-top-middle {
         width: 100%;
         text-align: center;
-        margin: 3rem auto; } }
+        margin: 0 auto; } }
     footer .footer-top .footer-top-middle li {
       padding-right: 1rem;
       padding-top: 1.4rem; }
@@ -189,7 +189,7 @@ footer {
         footer .footer-top .footer-top-right {
           width: 100%;
           text-align: center;
-          margin: 3rem 9rem; } }
+          margin: 0 auto; } }
       @media screen and (max-width: 768px) {
         footer .footer-top .footer-top-right img {
           width: 108px;

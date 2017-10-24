@@ -52,6 +52,9 @@
     width: 85%;
     margin: 5rem auto;
     padding: 0;
+    @media screen and (max-width: 768px) {
+      margin: 2rem auto;
+    }
     .intro-son {
       width: 20%;
       margin: 0;
@@ -92,10 +95,8 @@
         text-align: center;
       }
       p {
-        margin: 1rem 5rem;
-        @media screen and (max-width: 768px) {
-          text-align: center;
-        }
+        margin: 1rem 2rem;
+        text-align: center;
       }
     }
     .intro-son2 {
@@ -103,9 +104,13 @@
       border-left: 1px dashed #999999 ;
       @media screen and (max-width: 768px) {
         width: 100%;
-        margin: 2rem auto;
+        margin: 0 auto;
+        padding: 3rem;
         border-left: none;
         text-align: center;
+      }
+      p {
+        margin: 2rem 0;
       }
     }
   }
@@ -129,7 +134,6 @@
         width: 25%;
         padding-left: 0;
         @media screen and (max-width: 768px) {
-          @include df(row,center,center);
           width: 100%;
           padding-left: 0;
           margin: 3rem 0;
@@ -178,22 +182,33 @@
     }
     .zs-son {
       @include df(row,center,center);
-      margin: 2rem 0;
+      margin: 2rem 3rem;
+      @media screen and (max-width: 768px) {
+        margin: 2rem 0;
+      }
       div {
         @include df(column,center,center);
-        width: 20%;
-        margin: 3rem 2rem;
+        width: 18%;
+        margin: 3rem;
+        padding: 1rem;
         background: #ffffff;
         @media screen and (max-width: 768px) {
-          width: 100%;
+          width: 70%;
+          margin: 3rem 0;
+        }
+        img {
+          margin: 2rem 0;
         }
         h3 {
           font-size: 2rem;
-          margin: 3rem 0;
+          margin: 1rem 0;
         }
         p {
+          color: #b0b0b0;
+          font-size: 1.5rem;
           @media screen and (max-width: 768px) {
-            margin: 0 8rem;
+            margin: 0 2rem;
+            font-size: 1.5rem;
           }
         }
       }
@@ -216,11 +231,12 @@
       text-align: center;
       margin: 0 auto;
       margin-top: 8rem;
+      margin-bottom: 2rem;
     }
     .part-son {
       width: 100%;
       a {
-        margin: 3rem .5%;
+        margin: 4rem .5%;
         width: 19%;
         float: left;
         &:hover {
@@ -228,6 +244,7 @@
         }
         @media screen and (max-width: 768px) {
           width: 100%;
+          margin: 1rem .5%;
           text-align: center;
         }
         img {
@@ -256,8 +273,9 @@
       li {
         margin: 0 3.1rem;
         @media screen and (max-width: 768px) {
-          width: 40%;
-          margin: 2% 35%;
+          width: 20%;
+          margin: 2%;
+          text-align: center;
         }
       }
     }
