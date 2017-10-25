@@ -1,0 +1,39 @@
+/*reset*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+audio,
+video {
+    display: inline-block;
+}
+
+img {
+    border-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

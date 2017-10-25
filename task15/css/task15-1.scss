@@ -1,0 +1,287 @@
+@mixin df ($f-d,$j-c,$a-i) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: $f-d;
+  justify-content: $j-c;
+  align-items: $a-i;
+}
+.main {
+  width: 100%;
+  margin: 0 auto;
+  .wrap {
+    width: 100%;
+    overflow: hidden;
+    @keyframes banner {
+      0% {
+        margin-left: 0;
+
+      }
+      20% {
+        margin-left: 0;
+      }
+      25% {
+        margin-left: -100%;
+      }
+      45% {
+        margin-left: -100%;
+      }
+      50% {
+        margin-left: -200%;
+      }
+      70% {
+        margin-left: -200%;
+      }
+      75% {
+        margin-left: -300%;
+      }
+      95% {
+        margin-left: -300%;
+      }
+    }
+    .img-wrap {
+      width: 400%;
+      animation: banner 10s infinite;
+      img {
+        width: 25%;
+        float: left;
+      }
+    }
+  }
+  .intro {
+    @include df(row,space-around,center);
+    width: 85%;
+    margin: 5rem auto;
+    padding: 0;
+    @media screen and (max-width: 768px) {
+      margin: 2rem auto;
+    }
+    .intro-son {
+      width: 20%;
+      margin: 0;
+      padding: 0;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 2rem 0;
+      }
+      div {
+        height: 30%;
+        line-height: 30%;
+        text-align: center;
+      }
+      div:first-child i {
+        width:43px;
+        height: 62px;
+        margin: 0 auto;
+        background: url("../img/sprites.png") no-repeat;
+        background-position: -90px -10px;
+        display: inline-block;
+      }
+      div:nth-child(2) i {
+        width:60px;
+        height: 48px;
+        background: url("../img/sprites.png") no-repeat;
+        background-position: -10px -10px;
+        display: inline-block;
+      }
+      div:nth-child(3) i {
+        width:52px;
+        height: 55px;
+        background: url("../img/sprites.png") no-repeat;
+        background-position: -10px -78px;
+        display: inline-block;
+      }
+      h2 {
+        margin: 2rem auto;
+        text-align: center;
+      }
+      p {
+        margin: 1rem 2rem;
+        text-align: center;
+      }
+    }
+    .intro-son2 {
+      padding: 6rem 3rem;
+      border-left: 1px dashed #999999 ;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 0 auto;
+        padding: 3rem;
+        border-left: none;
+        text-align: center;
+      }
+      p {
+        margin: 2rem 0;
+      }
+    }
+  }
+  .adv {
+    @include df(column,center,center);
+    width: 85%;
+    margin:0 auto;
+    h2 {
+      margin-top: 5rem;
+    }
+    .row {
+      @include df(row,center,center);
+      width: 100%;
+      margin: 3rem 0;
+      padding-left: 0;
+      @media screen and (max-width: 768px) {
+        margin: 0;
+      }
+      .row-son {
+        @include df(row,center,center);
+        width: 25%;
+        padding-left: 0;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          padding-left: 0;
+          margin: 3rem 0;
+        }
+        .num {
+          width: 40px;
+          height:40px;
+          line-height: 40px;
+          border-radius: 20px;
+          box-shadow: 1px 1px 1px 1px  #e6e6e6;
+          text-align: center;
+          margin-right: 1rem;
+          margin-left: 0;
+          padding-left: 0;
+          background: #ffffff;
+        }
+        p {
+          width: 160px;
+          margin: 0;
+          @media screen and (min-width: 550px) and (max-width: 768px) {
+            width: 25rem;
+          }
+          @media screen and (min-width: 320px) and (max-width: 550px) {
+            width: 15rem;
+          }
+          @media screen and (min-width: 768px) and (max-width: 992px) {
+            width: 7rem;
+          }
+          @media screen and (min-width: 992px) and (max-width: 1200px) {
+            width: 12rem;
+          }
+        }
+        i {
+          width:29px;
+          height:26px;
+          margin: 0 .5rem;
+          background: url("../img/arr_03.png");
+        }
+      }
+    }
+  }
+  .zs {
+    width: 85%;
+    margin: 3rem auto;
+    text-align: center;
+    h2 {
+      margin: 0 auto;
+      margin-top: 5rem;
+    }
+    .zs-son {
+      @include df(row,center,center);
+      margin: 2rem 0;
+      width: 100%;
+      @media screen and (max-width: 768px) {
+        margin: 2rem 0;
+      }
+      div {
+        @include df(column,center,center);
+        width: 20%;
+        margin: 3rem 2%;
+        padding: .5%;
+        background: #ffffff;
+        @media screen and (max-width: 768px) {
+          width: 70%;
+          margin: 3rem 0;
+        }
+        img {
+          margin: 2rem 0;
+        }
+        h3 {
+          font-size: 2rem;
+          margin: 1rem 0;
+        }
+        p {
+          color: #b0b0b0;
+          font-size: 1.5rem;
+          @media screen and (max-width: 768px) {
+            margin: 0 2rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+    .circle {
+      @include df(row,center,center);
+      div {
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+        border: solid 2px #29b078;
+        margin: 0 5px;
+      }
+    }
+  }
+  .part {
+    width: 85%;
+    margin: 3rem auto;
+    h2 {
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 8rem;
+      margin-bottom: 2rem;
+    }
+    .part-son {
+      width: 100%;
+      a {
+        margin: 4rem .5%;
+        width: 19%;
+        float: left;
+        &:hover {
+          box-shadow: 0 1px 10px #999;
+        }
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          margin: 1rem .5%;
+          text-align: center;
+        }
+        img {
+          width: 100%;
+          height: 160px;
+          @media screen and (max-width: 768px) {
+            width: 250px;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+  .link {
+    @include df(column,center,center);
+    width: 85%;
+    margin:0 auto;
+    h2 {
+      margin-top: 5rem;
+    }
+    ul {
+      @include df(row,center,center);
+      width: 100%;
+      margin: 1rem 0;
+      padding: 0;
+      li {
+        margin: 0 3.1rem;
+        @media screen and (max-width: 768px) {
+          width: 20%;
+          margin: 2%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

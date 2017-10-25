@@ -1,0 +1,221 @@
+@mixin df ($f-d,$j-c,$a-i) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: $f-d;
+  justify-content: $j-c;
+  align-items: $a-i;
+}
+body {
+  background-color: #fafafa;
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  color: #29b078;
+  background: #ffffff;
+  .header-top {
+    @include df(row,space-between,center);
+    width: 100%;
+    height: 4rem;
+    @media screen and (max-width: 768px) {
+      @include df(row,flex-end,center);
+      margin: 0;
+      padding: 0;
+    }
+    span {
+      width: 50%;
+      padding-left: 5rem;
+      font-size: 1.5rem;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  .chat {
+    margin: 0;
+    padding-right: 6rem;
+    @media screen and (max-width: 768px) {
+      padding: 0;
+      margin-right: 1.5rem;
+    }
+    li {
+      margin-left: 2rem;
+      padding: 0;
+    }
+  }
+  .chat li:first-child {
+    display: inline-block;
+    width: 26px;
+    height: 24px;
+    background: url("../img/sprites.png") no-repeat;
+    background-position: -90px -92px;
+  }
+  .chat li:nth-child(2) {
+    display: inline-block;
+    width: 25px;
+    height: 24px;
+    background: url("../img/sprites.png") no-repeat;
+    background-position: -153px -10px;
+  }
+  .chat li:nth-child(3) {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url("../img/sprites.png") no-repeat;
+    background-position: -153px -54px;
+  }
+  .navbar {
+    background: #29b078;
+    .container {
+      @media screen and (min-width: 768px ) {
+        @include df(row,space-between,center);
+      }
+      .navbar-header {
+        @include df(row,space-between,center);
+        height: 6rem;
+        @media screen and (max-width: 768px ) {
+          height: 5rem;
+        }
+        .navbar-brand {
+          @include df(row,space-between,center);
+          padding-left: 5rem;
+          @media screen and (max-width: 768px) {
+            padding-left: 1rem;
+            transform: scale(0.7,0.7);
+          }
+        }
+        .navbar-toggle {
+          transform: scale(0.7,0.7);
+          padding-right: 1rem;
+          outline: none;
+          border: none;
+          background: #29b078;
+          @media screen and (min-width: 768px ) {
+            display: none;
+          }
+        }
+      }
+      .navbar-collapse {
+        display: block;
+        height: auto;
+        overflow: visible;
+        @media screen and (min-width: 768px ) {
+          display: block;
+          height: auto;
+          overflow: visible;
+          padding-right: 5rem;
+        }
+        .nav {
+          display: none;
+          @media screen and (min-width: 768px) {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            z-index: 4;
+          }
+          @media screen and (min-width: 768px) {
+            display: block;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            z-index: 4;
+          }
+          li {
+            padding: 1rem 0;
+            text-align: center;
+            font-size: 2rem;
+            background: #29b078;
+            @media screen and (min-width: 768px ) {
+              float: left;
+              padding: 0 1rem;
+              line-height: 6rem;
+
+              &:hover {
+                box-shadow: 0 -2px #fff inset;
+              }
+            }
+            a {
+              color: #ffffff;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  width: 100%;
+  height: 20rem;
+  .footer-top {
+    @include df(row,space-around,center);
+    width: 100%;
+    height: 17rem;
+    color: #ffffff;
+    background: #29b078;
+    @media screen and (max-width: 768px) {
+      height: 60rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      li {
+        display: inline-block;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+    p {
+      font-size: 1.8rem;
+    }
+    .footer-top-left {
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+        margin: 1rem auto;
+      }
+      li {
+        padding-top: 6rem;
+      }
+    }
+    .footer-top-middle {
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+      }
+      li {
+        padding-right: 1rem;
+        padding-top: 1.4rem;
+      }
+    }
+    .footer-top-right {
+      @include df(column,space-around,center);
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+      }
+      img {
+        @media screen and (max-width: 768px) {
+          width: 108px;
+          height: 92px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    @include df(row,center,center);
+    width: 100%;
+    height: 3rem;
+    border-top: 0.15rem solid #32c086;
+    color: #ffffff;
+    background: #29b078;
+    p {
+      margin: 0;
+    }
+  }
+}

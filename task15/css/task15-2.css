@@ -1,0 +1,277 @@
+.wrap {
+  width: 100%; }
+  .wrap .main {
+    width: 80%;
+    margin: 0 auto; }
+    .wrap .main .dh {
+      height: 4rem;
+      line-height: 4rem;
+      border-bottom: 2px solid #eeeded; }
+      .wrap .main .dh ul {
+        font-size: 1.5rem;
+        list-style: none;
+        padding: 0; }
+        .wrap .main .dh ul li {
+          float: left;
+          font-size: 2rem; }
+          @media screen and (max-width: 768px) {
+            .wrap .main .dh ul li {
+              font-size: 2rem; } }
+          .wrap .main .dh ul li a {
+            text-decoration: none;
+            color: #333; }
+          .wrap .main .dh ul li span {
+            color: #29b078; }
+    .wrap .main .direction {
+      width: 100%;
+      height: 5rem;
+      line-height: 5rem; }
+      @media screen and (max-width: 768px) {
+        .wrap .main .direction {
+          height: 10rem; } }
+      .wrap .main .direction ul {
+        list-style: none;
+        padding: 0; }
+        .wrap .main .direction ul li {
+          float: left;
+          margin-right: 2rem;
+          font-size: 1.5rem; }
+          @media screen and (max-width: 768px) {
+            .wrap .main .direction ul li {
+              font-size: 1.2rem; } }
+          .wrap .main .direction ul li a {
+            color: #000000; }
+        .wrap .main .direction ul .direction-1 {
+          color: #999999; }
+    .wrap .main .qd,
+    .wrap .main .hd,
+    .wrap .main .yw {
+      width: 100%;
+      margin: 2rem 0; }
+      .wrap .main .qd h2,
+      .wrap .main .hd h2,
+      .wrap .main .yw h2 {
+        width: 100%;
+        border-bottom: 2px solid #eeeded;
+        padding: 2rem 0; }
+      .wrap .main .qd .row1,
+      .wrap .main .hd .row1,
+      .wrap .main .yw .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin: 4rem 0; }
+        .wrap .main .qd .row1 .box,
+        .wrap .main .hd .row1 .box,
+        .wrap .main .yw .row1 .box {
+          position: relative;
+          width: 32%;
+          overflow: hidden;
+          border: 1px solid #eeeded;
+          background: #ffffff; }
+          .wrap .main .qd .row1 .box:hover .describe,
+          .wrap .main .hd .row1 .box:hover .describe,
+          .wrap .main .yw .row1 .box:hover .describe {
+            visibility: visible;
+            transform: rotateX(0deg);
+            transition: 2s; }
+          @media screen and (max-width: 768px) {
+            .wrap .main .qd .row1 .box,
+            .wrap .main .hd .row1 .box,
+            .wrap .main .yw .row1 .box {
+              width: 100%;
+              margin: 2rem 0; } }
+          @media screen and (min-width: 768px) and (max-width: 1200px) {
+            .wrap .main .qd .row1 .box,
+            .wrap .main .hd .row1 .box,
+            .wrap .main .yw .row1 .box {
+              width: 45%;
+              margin: 2rem 0; } }
+          .wrap .main .qd .row1 .box .box-top,
+          .wrap .main .hd .row1 .box .box-top,
+          .wrap .main .yw .row1 .box .box-top {
+            height: 18rem;
+            overflow: hidden;
+            border-bottom: 1px solid #eeeded; }
+            .wrap .main .qd .row1 .box .box-top img,
+            .wrap .main .hd .row1 .box .box-top img,
+            .wrap .main .yw .row1 .box .box-top img {
+              float: left;
+              width: 120px;
+              height: 140px;
+              margin: 2rem 0.5rem; }
+            .wrap .main .qd .row1 .box .box-top h3,
+            .wrap .main .hd .row1 .box .box-top h3,
+            .wrap .main .yw .row1 .box .box-top h3 {
+              text-align: center;
+              margin-left: 12.5rem;
+              padding-top: 0;
+              font-size: 2rem; }
+            .wrap .main .qd .row1 .box .box-top p,
+            .wrap .main .hd .row1 .box .box-top p,
+            .wrap .main .yw .row1 .box .box-top p {
+              margin-left: 12.5rem;
+              font-size: 1.2rem; }
+          .wrap .main .qd .row1 .box .line1,
+          .wrap .main .hd .row1 .box .line1,
+          .wrap .main .yw .row1 .box .line1 {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 4rem;
+            line-height: 4rem;
+            overflow: hidden;
+            font-size: 1.2rem;
+            border-bottom: 1px solid #eeeded; }
+            .wrap .main .qd .row1 .box .line1 span,
+            .wrap .main .hd .row1 .box .line1 span,
+            .wrap .main .yw .row1 .box .line1 span {
+              vertical-align: middle;
+              margin-right: 0.5rem;
+              padding-left: 0.5rem; }
+            .wrap .main .qd .row1 .box .line1 img,
+            .wrap .main .hd .row1 .box .line1 img,
+            .wrap .main .yw .row1 .box .line1 img {
+              vertical-align: middle; }
+          .wrap .main .qd .row1 .box .line1 li:first-child,
+          .wrap .main .hd .row1 .box .line1 li:first-child,
+          .wrap .main .yw .row1 .box .line1 li:first-child {
+            float: left;
+            width: 40%;
+            border-right: 1px solid #eeeded; }
+          .wrap .main .qd .row1 .box .line2,
+          .wrap .main .hd .row1 .box .line2,
+          .wrap .main .yw .row1 .box .line2 {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 4rem;
+            line-height: 4rem;
+            overflow: hidden;
+            font-size: 1.2rem;
+            border-bottom: 1px solid #eeeded; }
+            .wrap .main .qd .row1 .box .line2 span,
+            .wrap .main .hd .row1 .box .line2 span,
+            .wrap .main .yw .row1 .box .line2 span {
+              vertical-align: middle;
+              margin-right: 0.5rem;
+              padding-left: 0.5rem; }
+            .wrap .main .qd .row1 .box .line2 strong,
+            .wrap .main .hd .row1 .box .line2 strong,
+            .wrap .main .yw .row1 .box .line2 strong {
+              color: #e63b0e;
+              padding-left: 1rem; }
+          .wrap .main .qd .row1 .box .line2 li:first-child,
+          .wrap .main .hd .row1 .box .line2 li:first-child,
+          .wrap .main .yw .row1 .box .line2 li:first-child {
+            float: left;
+            width: 40%;
+            border-right: 1px solid #eeeded; }
+          .wrap .main .qd .row1 .box .line3,
+          .wrap .main .hd .row1 .box .line3,
+          .wrap .main .yw .row1 .box .line3 {
+            height: 12rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 1.2rem;
+            border-bottom: 1px solid #eeeded;
+            overflow: hidden; }
+            .wrap .main .qd .row1 .box .line3 .line3-1,
+            .wrap .main .hd .row1 .box .line3 .line3-1,
+            .wrap .main .yw .row1 .box .line3 .line3-1 {
+              float: left;
+              width: 30%;
+              height: 12rem;
+              line-height: 12rem;
+              border-right: 1px solid #eeeded;
+              margin: 0;
+              padding: 0;
+              text-align: center; }
+              .wrap .main .qd .row1 .box .line3 .line3-1 span,
+              .wrap .main .hd .row1 .box .line3 .line3-1 span,
+              .wrap .main .yw .row1 .box .line3 .line3-1 span {
+                vertical-align: middle;
+                color: #999999;
+                font-size: 1.2rem; }
+            .wrap .main .qd .row1 .box .line3 .line3-2,
+            .wrap .main .hd .row1 .box .line3 .line3-2,
+            .wrap .main .yw .row1 .box .line3 .line3-2 {
+              margin-left: 30%;
+              padding: 0; }
+              .wrap .main .qd .row1 .box .line3 .line3-2 .line3-son,
+              .wrap .main .hd .row1 .box .line3 .line3-2 .line3-son,
+              .wrap .main .yw .row1 .box .line3 .line3-2 .line3-son {
+                list-style: none;
+                margin: 0;
+                padding: 0; }
+                .wrap .main .qd .row1 .box .line3 .line3-2 .line3-son li,
+                .wrap .main .hd .row1 .box .line3 .line3-2 .line3-son li,
+                .wrap .main .yw .row1 .box .line3 .line3-2 .line3-son li {
+                  line-height: 4rem;
+                  padding-left: 2rem;
+                  border-bottom: 1px solid #eeeded; }
+                  .wrap .main .qd .row1 .box .line3 .line3-2 .line3-son li p,
+                  .wrap .main .hd .row1 .box .line3 .line3-2 .line3-son li p,
+                  .wrap .main .yw .row1 .box .line3 .line3-2 .line3-son li p {
+                    margin: 0; }
+                  .wrap .main .qd .row1 .box .line3 .line3-2 .line3-son li span,
+                  .wrap .main .hd .row1 .box .line3 .line3-2 .line3-son li span,
+                  .wrap .main .yw .row1 .box .line3 .line3-2 .line3-son li span {
+                    vertical-align: middle;
+                    float: right;
+                    padding-right: 2rem; }
+          .wrap .main .qd .row1 .box .line4,
+          .wrap .main .hd .row1 .box .line4,
+          .wrap .main .yw .row1 .box .line4 {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 3rem;
+            line-height: 3rem;
+            border-bottom: 1px solid #eeeded; }
+            .wrap .main .qd .row1 .box .line4 li,
+            .wrap .main .hd .row1 .box .line4 li,
+            .wrap .main .yw .row1 .box .line4 li {
+              padding-left: 2rem; }
+              .wrap .main .qd .row1 .box .line4 li strong,
+              .wrap .main .hd .row1 .box .line4 li strong,
+              .wrap .main .yw .row1 .box .line4 li strong {
+                color: #e63b0e; }
+          .wrap .main .qd .row1 .box .line5,
+          .wrap .main .hd .row1 .box .line5,
+          .wrap .main .yw .row1 .box .line5 {
+            display: inline-block;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            vertical-align: middle; }
+            .wrap .main .qd .row1 .box .line5 li,
+            .wrap .main .hd .row1 .box .line5 li,
+            .wrap .main .yw .row1 .box .line5 li {
+              padding-left: 2rem; }
+          .wrap .main .qd .row1 .box .describe,
+          .wrap .main .hd .row1 .box .describe,
+          .wrap .main .yw .row1 .box .describe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            visibility: hidden;
+            transform: rotateX(90deg);
+            background: rgba(61, 61, 61, 0.8); }
+            .wrap .main .qd .row1 .box .describe h3,
+            .wrap .main .hd .row1 .box .describe h3,
+            .wrap .main .yw .row1 .box .describe h3 {
+              color: #ffffff;
+              padding: 3rem 0; }
+            .wrap .main .qd .row1 .box .describe p,
+            .wrap .main .hd .row1 .box .describe p,
+            .wrap .main .yw .row1 .box .describe p {
+              color: #ffffff;
+              padding: 1rem 3rem; }
+
+/*# sourceMappingURL=task15-2.css.map */
